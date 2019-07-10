@@ -1,0 +1,40 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- https://github.com/jekyll/jekyll-seo-tag -->
+  {%- seo -%}
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="{{ "/assets/css/bootstrap.min.css" | relative_url }}">
+
+  <!-- MDB -->
+  <link rel="stylesheet" href="{{ "/assets/css/mdb.min.css" | relative_url }}">
+
+  <!-- Custom css -->
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+
+
+  <!-- Custom Fonts -->
+  <link
+    href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
+  <link
+    href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
+    rel='stylesheet' type='text/css'>
+  
+
+  <!-- https://github.com/jekyll/jekyll-feed -->
+  {%- feed_meta -%}
+
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+  {%- include google-analytics.html -%}
+  {%- endif -%}
+
+</head>
+
+

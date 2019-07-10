@@ -1,0 +1,44 @@
+/* Required for full background image */
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+@media (max-width: 740px) {
+
+    html,
+    body,
+    header,
+    .view {
+        height: 100vh;
+    }
+}
+
+.top-nav-collapse {
+    background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+/* @media (max-width: 991px) {
+    .navbar: not(.top-nav-collapse)
+} */
+
+
+
+#intro {
+    background-image: url('../img/landing-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.btn:hover {
+    background-color: #E31B6D !important;
+}
