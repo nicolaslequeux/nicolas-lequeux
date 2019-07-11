@@ -48,3 +48,15 @@ header,
     height: 4rem;
 
 }
+
+
+/* Portfolio Cards */
+
+.card-wrapper {
+    width: 20rem;
+    height: 20rem;
+}
+
+.card-rotating .card-body {
+    padding: 0;
+}
