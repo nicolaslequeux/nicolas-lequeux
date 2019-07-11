@@ -35,10 +35,16 @@ header,
     background-image: url('../img/landing-background.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
 }
 
 
 .btn:hover {
     background-color: #E31B6D !important;
+}
+
+
+.skill-img {
+    width: 4rem;
+    height: 4rem;
+
 }
