@@ -7,6 +7,15 @@ header,
     height: 100%;
 }
 
+#about,
+#portfolio {
+    /* height: 1000px; */
+    padding-top: 50px;
+    min-height: 800px;
+}
+
+
+
 @media (max-width: 740px) {
 
     html,
@@ -52,11 +61,19 @@ header,
 
 /* Portfolio Cards */
 
-.card-wrapper {
+.card-portfolio {
     width: 20rem;
-    height: 20rem;
+    height: 26rem;
 }
 
-.card-rotating .card-body {
-    padding: 0;
+.card-portfolio-img {
+    height: 15rem;
+}
+
+.card-portfolio-text {
+    height: 7rem;
+}
+
+.card-portfolio-link i:hover {
+    color: #E31B6D;
 }
