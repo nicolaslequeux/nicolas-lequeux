@@ -1,8 +1,11 @@
 title: Nicolas Lequeux | Full-stack web developper
 author: Nicolas Lequeux
 email: contact@nicolaslequeux.com
-description: Full Stack Developper
+description: Nicolas Lequeux - Freelance full-stack web developper
 url: http://www.nicolaslequeux.com
+type: website
+image: /assets/img/og-img-header.png
+
 
 show_excerpts: false # set to true to show excerpts on the homepage
 

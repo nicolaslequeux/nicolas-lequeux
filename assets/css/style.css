@@ -15,7 +15,6 @@ header,
 }
 
 
-
 @media (max-width: 740px) {
 
     html,
@@ -39,7 +38,6 @@ header,
 } */
 
 
-
 #intro {
     background-image: url('../img/landing-background.png');
     background-repeat: no-repeat;
@@ -52,6 +50,7 @@ header,
 }
 
 
+/* About page */
 
 .alias-nicolas {
     width: 10rem;
