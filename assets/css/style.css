@@ -68,10 +68,15 @@ header,
 
 .card-portfolio-img {
     height: 15rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
 }
 
 .card-portfolio-text {
     height: 7rem;
+}
+
+.card-portfolio-link {
+    color: black;
 }
 
 .card-portfolio-link i:hover {
