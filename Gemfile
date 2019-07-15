@@ -11,6 +11,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 3.8.6"
 gem "jekyll-feed", "~> 0.9"
 gem "jekyll-seo-tag", "~> 2.1"
+gem "jekyll-sitemap"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.0"

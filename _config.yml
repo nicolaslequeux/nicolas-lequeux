@@ -2,9 +2,21 @@ title: Nicolas Lequeux | Full-stack web developper
 author: Nicolas Lequeux
 email: contact@nicolaslequeux.com
 description: Full Stack Developper
+url: http://www.nicolaslequeux.com
 
 show_excerpts: false # set to true to show excerpts on the homepage
+
+# seo gem
+social:
+  name: Nicolas Lequeux
+  links:
+    - https://www.facebook.com/nicolas.lequeux.5
+    - https://www.linkedin.com/in/nicolas-lequeux-5b02806/
+    - https://github.com/nicolaslequeux
 
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-sitemap
+
+
