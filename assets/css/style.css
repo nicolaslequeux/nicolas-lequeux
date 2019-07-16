@@ -1,5 +1,4 @@
 /* Required for full background image */
-
 html,
 body,
 header,
@@ -13,7 +12,6 @@ header,
     padding-top: 50px;
     min-height: 800px;
 }
-
 
 @media (max-width: 740px) {
 
@@ -51,7 +49,6 @@ header,
 
 
 /* About page */
-
 .alias-nicolas {
     width: 10rem;
     height: 10rem;
@@ -64,7 +61,6 @@ header,
 
 
 /* Portfolio Cards */
-
 .card-portfolio {
     width: 20rem;
     height: 26rem;
@@ -88,7 +84,9 @@ header,
 }
 
 
+/* Contact */
 #arrow-back-home {
     position: relative;
-    top: 20px;
+    top: 40px;
+    z-index: 9;
 }
