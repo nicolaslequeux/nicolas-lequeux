@@ -86,3 +86,9 @@ header,
 .card-portfolio-link i:hover {
     color: #E31B6D;
 }
+
+
+#arrow-back-home {
+    position: relative;
+    top: 20px;
+}
