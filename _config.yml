@@ -4,22 +4,29 @@ email: contact@nicolaslequeux.com
 description: Nicolas Lequeux - Freelance full-stack web developper
 url: http://www.nicolaslequeux.com
 type: website
-image: /assets/img/og-img-header.png
 
+# Provide a default OGP image to all posts and pages.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/og-img-header.png
 
-show_excerpts: false # set to true to show excerpts on the homepage
+# Set to true to show excerpts on the homepage
+show_excerpts: false
+
+# Google Analytics
+google_analytics: UA-NNNNNNNN-N
 
 # seo gem
 social:
   name: Nicolas Lequeux
   links:
-    - https://www.facebook.com/nicolas.lequeux.5
     - https://www.linkedin.com/in/nicolas-lequeux-5b02806/
     - https://github.com/nicolaslequeux
 
+# Plugins
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-sitemap
-
-
