@@ -9,13 +9,24 @@
   <!-- https://github.com/jekyll/jekyll-feed -->
   {%- feed_meta -%}
 
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+<!--   {%- if jekyll.environment == 'production' and site.google_analytics -%}
   {%- include google-analytics.html -%}
-  {%- endif -%}
+  {%- endif -%} -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150681617-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-150681617-1');
+  </script>
+
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-  
+
   <!-- Bootstrap -->
   <link rel="stylesheet" href="{{ "/assets/css/bootstrap.min.css" | relative_url }}">
 

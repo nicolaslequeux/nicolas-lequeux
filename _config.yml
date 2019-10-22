@@ -16,7 +16,7 @@ defaults:
 show_excerpts: false
 
 # Google Analytics
-google_analytics: UA-NNNNNNNN-N
+# google_analytics: UA-150681617-1
 
 # seo gem
 social:
