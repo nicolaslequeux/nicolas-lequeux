@@ -9,3 +9,8 @@ Tools used to build this website in 07/2019:
 - [Material Design for Bootstrap](https://mdbootstrap.com/) : The world's most popular framework for building responsive, mobile-first websites and apps.
 
 - and a bunch of custom CSS to get it looking just nice!
+
+---
+
+git push origin master == deployed on GitHub with https enforced!
+
