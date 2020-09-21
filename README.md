@@ -15,3 +15,6 @@ Tools used to build this website in 07/2019:
 git push origin master == deployed on GitHub with https enforced!
 
 Portfolio card pictures 4:3 with size <= 600x450
+
+jekyll serve
+
