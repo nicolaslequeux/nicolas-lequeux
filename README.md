@@ -18,3 +18,7 @@ Portfolio card pictures 4:3 with size <= 600x450
 
 jekyll serve
 
+PS : Install gem :
+➜ bundle config set --local path 'vendor/bundle'
+➜ bundle install
+➜ bundle exec jekyll serve
